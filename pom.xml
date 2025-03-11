@@ -75,7 +75,7 @@
     <repositories>
         <repository>
             <id>wso2.releases</id>
-            <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
+            <url>http://upgrade-maven3.wso2.org/nexus/content/repositories/releases/</url>
         </repository>
     </repositories>
     
