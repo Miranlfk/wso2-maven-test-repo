@@ -25,84 +25,38 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
-            <!-- <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.8.2</version>
-                <configuration>
-                    <repositoryId>wso2.releases</repositoryId>
-                    <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
-                    <serverId>wso2.releases</serverId>
-                    <configuration>
-                        <httpConfiguration>
-                            <all>
-                                <ssl>
-                                    <insecure>true</insecure>
-                                    <allowall>true</allowall>
-                                </ssl>
-                            </all>
-                        </httpConfiguration>
-                    </configuration>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.2.0</version>
-                <executions>
-                    <execution>
-                        <id>default-resources</id>
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>resources</goal>
-                        </goals>
-                        <configuration>
-                            <encoding>UTF-8</encoding>
-                            <nonFilteredFileExtensions>
-                                <nonFilteredFileExtension>cert</nonFilteredFileExtension>
-                            </nonFilteredFileExtensions>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin> -->
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>wso2.releases</id>
-            <url>http://upgrade-maven3.wso2.org/nexus/content/repositories/releases/</url>
-        </repository>
-    </repositories>
     
-    <dependencies>
-        <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>org.wso2.carbon.core</artifactId>
-            <version>4.4.0</version>
-        </dependency>
-        <!--
-        <dependency>
-            <groupId>org.opensaml</groupId>
-            <artifactId>opensaml</artifactId>
-            <version>2.6.6</version>
-        </dependency>
+  <dependencies>
+    <dependency>
+     <groupId>org.wso2.carbon</groupId>
+     <artifactId>org.wso2.carbon.core</artifactId>
+     <version>4.4.0</version>
+    </dependency>
+      <!--
+    <dependency>
+     <groupId>org.opensaml</groupId>
+     <artifactId>opensaml</artifactId>
+     <version>2.6.6</version>
+    </dependency>
 
-        <dependency>
-            <groupId>org.wso2.carbon.identity.inbound.auth.oauth2</groupId>
-            <artifactId>org.wso2.carbon.identity.oauth.common</artifactId>
-            <version>6.0.168</version>
-        </dependency>
+    <dependency>
+     <groupId>org.wso2.carbon.identity.inbound.auth.oauth2</groupId>
+     <artifactId>org.wso2.carbon.identity.oauth.common</artifactId>
+     <version>6.0.168</version>
+    </dependency>
 
-        <dependency>
-            <groupId>org.ballerinalang</groupId>
-            <artifactId>ballerina-sql</artifactId>
-            <version>0.992.0-m1</version>
-        </dependency>
-        -->
+    <dependency>
+      <groupId>org.ballerinalang</groupId>
+      <artifactId>ballerina-sql</artifactId>
+     <version>0.992.0-m1</version>
+   </dependency>
+  </dependencies>
+   -->
     </dependencies>
 </project>
