@@ -30,6 +30,23 @@
                 </configuration>
             </plugin>
         </plugins>
+        <settings>
+            <servers>
+                <server>
+                    <id>wso2.releases</id>
+                    <configuration>
+                        <httpConfiguration>
+                            <all>
+                                <ssl>
+                                    <insecure>true</insecure>
+                                    <allowall>true</allowall>
+                                </ssl>
+                            </all>
+                        </httpConfiguration>
+                    </configuration>
+                </server>
+            </servers>
+        </settings>
     </build>
 
     <repositories>
