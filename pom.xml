@@ -2,15 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.kasung.test</groupId>
+    <groupId>org.mirank.test</groupId>
     <artifactId>mytest</artifactId>
     <version>1.0.200-SNAPSHOT</version>
-
-    <parent>
-        <groupId>org.wso2</groupId>
-        <artifactId>wso2</artifactId>
-        <version>5</version>
-    </parent>
 
     <scm>
         <url>https://github.com/Miranlfk/wso2-maven-test-repo.git</url>
@@ -33,11 +27,6 @@
     </build>
     
   <dependencies>
-    <dependency>
-     <groupId>org.wso2.carbon</groupId>
-     <artifactId>org.wso2.carbon.core</artifactId>
-     <version>4.4.0</version>
-    </dependency>
       <!--
     <dependency>
      <groupId>org.opensaml</groupId>
