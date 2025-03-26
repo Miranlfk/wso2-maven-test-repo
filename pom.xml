@@ -6,7 +6,7 @@
     <artifactId>mytest</artifactId>
     <version>1.0.207-SNAPSHOT</version>
 
-    <!-- <distributionManagement>
+    <distributionManagement>
         <repository>
             <id>releases</id>
             <url>http://localhost:8081/repository/releases/</url>
@@ -15,7 +15,7 @@
             <id>snapshot</id>
             <url>http://localhost:8081/repository/snapshots/</url>
         </snapshotRepository>
-    </distributionManagement> -->
+    </distributionManagement>
 
     <scm>
         <url>https://github.com/Miranlfk/wso2-maven-test-repo.git</url>
