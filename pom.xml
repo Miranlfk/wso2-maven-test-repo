@@ -4,7 +4,7 @@
 
     <groupId>org.mirank.test</groupId>
     <artifactId>mytest</artifactId>
-    <version>1.0.207</version>
+    <version>1.0.208-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>
@@ -21,7 +21,7 @@
         <url>https://github.com/Miranlfk/wso2-maven-test-repo.git</url>
         <developerConnection>scm:git:https://github.com/Miranlfk/wso2-maven-test-repo.git</developerConnection>
         <connection>scm:git:https://github.com/Miranlfk/wso2-maven-test-repo.git</connection>
-        <tag>v1.0.207</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
