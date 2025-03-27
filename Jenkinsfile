@@ -1,6 +1,6 @@
 properties([pipelineTriggers([githubPush()])])
 
-node ('COMPONENT_ECS') {
+node ('TEST_PRODUCT_BIONIC_ECS') {
     stage ('Checkout'){
         git url: 'https://github.com/Miranlfk/wso2-maven-test-repo.git'
     }
