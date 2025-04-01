@@ -4,7 +4,18 @@
 
     <groupId>org.mirank.test</groupId>
     <artifactId>mytest</artifactId>
-    <version>1.0.209-SNAPSHOT</version>
+    <version>1.0.210-SNAPSHOT</version>
+
+    <distributionManagement>
+        <repository>
+            <id>wso2.releases</id>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>wso2.snapshot</id>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <scm>
         <url>https://github.com/Miranlfk/wso2-maven-test-repo.git</url>
