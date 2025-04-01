@@ -4,13 +4,13 @@
 
     <groupId>org.mirank.test</groupId>
     <artifactId>mytest</artifactId>
-    <version>1.0.211</version>
+    <version>1.0.212-SNAPSHOT</version>
 
     <scm>
         <url>https://github.com/Miranlfk/wso2-maven-test-repo.git</url>
         <developerConnection>scm:git:https://github.com/Miranlfk/wso2-maven-test-repo.git</developerConnection>
         <connection>scm:git:https://github.com/Miranlfk/wso2-maven-test-repo.git</connection>
-        <tag>v1.0.211</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
