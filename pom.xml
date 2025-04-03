@@ -4,13 +4,13 @@
 
     <groupId>org.mirank.test</groupId>
     <artifactId>mytest</artifactId>
-    <version>2.2.2-SNAPSHOT</version>
+    <version>2.2.3-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>
             <id>staging</id>
             <name>Nexus Repository</name>
-            <url>http://localhost:8081/</url>
+            <url>http://localhost:8081</url>
         </repository>
     </distributionManagement>
 
