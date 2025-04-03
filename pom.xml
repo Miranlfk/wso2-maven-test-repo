@@ -4,15 +4,7 @@
 
     <groupId>org.mirank.test</groupId>
     <artifactId>mytest</artifactId>
-    <version>2.2.7-SNAPSHOT</version>
-
-    <distributionManagement>
-        <repository>
-            <id>staging</id>
-            <name>Nexus Repository</name>
-            <url>http://localhost:8081</url>
-        </repository>
-    </distributionManagement>
+    <version>2.2.8-SNAPSHOT</version>
 
     <scm>
         <url>https://github.com/Miranlfk/wso2-maven-test-repo.git</url>
