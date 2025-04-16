@@ -38,13 +38,13 @@
             </plugin> -->
         </plugins>
     </build>
-    <repositories>
+    <!-- <repositories>
         <repository>
             <id>wso2-releases</id>
             <name>WSO2 Releases Repository</name>
             <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
         </repository>
-    </repositories>
+    </repositories> -->
     
   <dependencies>
     <dependency>
