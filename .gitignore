@@ -5,3 +5,7 @@
 target
 backup
 anothertarget
+artifacts
+.repository/
+pom.xml.releaseBackup
+release.properties
