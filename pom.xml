@@ -12,7 +12,7 @@
             <name>Nexus Repository</name>
             <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
         </repository>
-        </snapshotRepository>
+        <snapshotRepository>
             <id>snapshots</id>
             <name>Nexus Snapshot Repository</name>
             <url>https://upgrade-maven3.wso2.org/nexus/repository/snapshots/</url>
