@@ -8,11 +8,6 @@
 
     <distributionManagement>
         <repository>
-            <id>staging</id>
-            <name>Nexus Repository</name>
-            <url>https://upgrade-maven3.wso2.org/nexus/repository/staging/</url>
-        </repository>
-        <repository>
             <id>releases</id>
             <name>Nexus Repository</name>
             <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
