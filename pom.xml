@@ -8,10 +8,15 @@
 
     <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>wso2-release</id>
             <name>Nexus Repository</name>
             <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
         </repository>
+        </snapshotRepository>
+            <id>snapshots</id>
+            <name>Nexus Snapshot Repository</name>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <scm>
@@ -30,6 +35,11 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>3.1.0</version> <!-- Use latest version -->
             </plugin>
             <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
