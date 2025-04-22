@@ -10,9 +10,7 @@
         <repository>
             <id>wso2-release</id>
             <name>Nexus Repository</name>
-            <url>(closeStage ? 
-                    "https://upgrade-maven3.wso2.org/nexus/repository/releases/" : 
-                    "https://upgrade-maven3.wso2.org/nexus/repository/staging/")</url>
+            <url>https://upgrade-maven3.wso2.org/nexus/repository/releases/</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
