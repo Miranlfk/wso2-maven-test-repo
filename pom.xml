@@ -4,7 +4,7 @@
 
     <groupId>com.wso2.test</groupId>
     <artifactId>mytest</artifactId>
-    <version>2.9.17-SNAPSHOT</version>
+    <version>2.9.18-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>
